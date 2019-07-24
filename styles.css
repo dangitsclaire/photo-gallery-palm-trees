@@ -1,0 +1,44 @@
+img{
+  display: flex;
+  padding: 3px;
+  border: double black 2px;
+  margin: 20px;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  object-fit: cover;
+  height: 500px;
+  width: 300px;
+  align-content: center;
+  display: inline-block;
+
+}
+h1{
+  font-family: 'Wire One', sans-serif;
+  font-size: 60px;
+  border: double black 5px;
+}
+@media screen and (max-width: 2046px) {
+  img{
+    height: 500px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  img{
+    height: 400px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  img{
+    height: 350px;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 750px) {
+  img{
+    height: 300px;
+    width: 200px;
+  }
+}
